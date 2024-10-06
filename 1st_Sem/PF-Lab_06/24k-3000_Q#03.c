@@ -15,7 +15,7 @@ int main() {
 			} else {
 			printf("\nTransaction Failed!! \n(Your requested Amount is more than your Current Balance)");
 			}
-		printf("\n\nEnter \"1\" to perform Transaction Again : ");
+		printf("\n\nEnter \"1\" to Perform Transaction Again OR Any Other Number to Terminate: ");
 		scanf("%d", &confirm);
 	
 	} while (confirm == 1);

@@ -34,7 +34,7 @@ int main() {
 				printf("\nInvalid Input!!");
 		}
 		
-		printf("\nEnter any number except \'0\' to perform calculation again: ");
+		printf("\n\nEnter any number except \'0\' to perform calculation again: ");
 		scanf("%d", &cont);
 	} while(cont != 0);
 	
