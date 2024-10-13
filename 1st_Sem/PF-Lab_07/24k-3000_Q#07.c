@@ -3,7 +3,7 @@
 int main() {
 int arr[5];
 printf("Enter First Integer: ");
-scanf();
+scanf("%d", &arr[i]);
 printf("Enter First Integer: ");
 printf("Enter First Integer: ");
 printf("Enter First Integer: ");
