@@ -3,6 +3,7 @@
 int main()
 {
 	int vowels = 0, consonents = 0, i, arr_size;
+	
 	printf("Enter your array size: ");
 	scanf("%d", &arr_size);
 	
