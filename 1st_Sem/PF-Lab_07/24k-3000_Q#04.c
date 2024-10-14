@@ -6,14 +6,14 @@ int main() {
     printf("Enter the size of the array: ");
     scanf("%d", &N);
 
-    int arr[N];
+    int arr[N + 1];
     int freq[N];
 
     for (int i = 0; i < N; i++) {
         freq[i] = 0;
     }
 
-    printf("Enter the elements of the array (0 to %d): ", N - 1);
+    printf("\nEnter %d elements in the array:\n", N);
     for (int i = 0; i < N; i++) {
         scanf("%d", &arr[i]);
     }
@@ -26,7 +26,7 @@ int main() {
     int found_duplicate = 0;
     for (int i = 0; i < N; i++) {
         if (freq[i] > 1) {
-            printf("%d ", i);
+            printf("%d   ", i);
             found_duplicate = 1;
         }
     }

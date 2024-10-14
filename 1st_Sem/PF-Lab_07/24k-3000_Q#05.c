@@ -9,7 +9,7 @@ int main()
 	
 	char str[arr_size];
 	
-	printf("Enter random string containing alphabets in your array:");
+	printf("\nEnter random string consisting of alphabets in your array: ");
 	scanf(" %[A-Za-z]", &str);
 	
 	for(i = 0; i < arr_size; i++) {
